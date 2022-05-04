@@ -1,0 +1,69 @@
+.header {
+    background: #000821;
+    height: 3.125rem;
+    top: 0;
+    transition: top 0.2s ease 0.2s;
+    will-change: top;
+    z-index: 9999;
+  }
+
+  .footer {
+    background-color: #20056b;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+html, body {
+    font-family:"Roboto","Helvetica","sans-serif";
+}
+
+body, figure {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+.article__dropline {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    color: #424242;
+    width: 100%;
+}
+
+
+.header__logo-container {
+    align-self: center;
+    display: flex;
+    left: calc(50% - 1.5625rem);
+    position: absolute;
+}
+
+img{
+max-width: 728px;
+}
+
+#content{
+    float: left;
+    width: 50%;;
+    background-color: #ffffff;
+}
+
+#aside{
+ float: right;
+ width: 30%;
+}
